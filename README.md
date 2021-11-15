@@ -4,6 +4,7 @@ A android plant shop app with firebase backend
 -----
 ![](mockup1.png)
 ![](mockup2.png)
+![](backend.jpg)
 ![](demogif.gif)
 
 
@@ -15,6 +16,9 @@ What i learned:
 + Store product and save to user cart with Firebase Realtime Storage
 + Create product in backend with Firebase Realtime Storage
 + Firebase Auth for Login/Register/Forgot Password
+
+
+Total time used for project: 2 days
 
 
 ```
