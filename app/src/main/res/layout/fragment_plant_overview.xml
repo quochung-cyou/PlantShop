@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.PlantOverview">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="90dp"
+        android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/category"
+            android:layout_marginStart="25dp"
+            android:text="Plant Overview"
+            android:fontFamily="@font/philosopher"
+            android:textColor="#24243F"
+            android:textSize="25sp"></TextView>
+
+
+            <com.mlsdev.animatedrv.AnimatedRecyclerView
+                android:layout_width="match_parent"
+                android:layout_marginTop="40dp"
+                android:id="@+id/recyclerView"
+                android:layout_height="match_parent"
+                app:animationDuration="200"
+                android:nestedScrollingEnabled="false"
+                app:layout_constraintTop_toBottomOf="@id/category"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layoutAnimation="@anim/layout_animation_from_bottom"
+                app:layoutManagerOrientation="vertical"
+                app:layoutManagerReverse="false"
+                app:layoutManagerType="linear"
+                ></com.mlsdev.animatedrv.AnimatedRecyclerView>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

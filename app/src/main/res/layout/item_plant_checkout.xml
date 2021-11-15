@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardBackgroundColor="@color/white"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="100dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+
+                android:adjustViewBounds="true"
+                android:src="@drawable/bgcheckout"></ImageView>
+
+            <ImageView
+                android:id="@+id/imagecheckout"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/watermelonpeperomia"></ImageView>
+        </RelativeLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="15dp"
+                android:id="@+id/addbutton"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/plantnamecheckout"
+                app:layout_constraintStart_toStartOf="parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/add"></ImageView>
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toEndOf="@id/addbutton"
+                app:layout_constraintTop_toBottomOf="@id/plantnamecheckout"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:fontFamily="@font/philosopher"
+                android:text="1"
+                android:textColor="#0D986A"
+                android:textSize="18dp"></TextView>
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/subbutton"
+                android:layout_marginStart="15dp"
+                app:layout_constraintTop_toBottomOf="@id/plantnamecheckout"
+                app:layout_constraintStart_toEndOf="@id/quantity"
+                android:adjustViewBounds="true"
+                android:src="@drawable/sub"></ImageView>
+
+            <TextView
+                android:id="@+id/plantnamecheckout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:fontFamily="@font/philosopher"
+                android:text="Watermelon Peperomia"
+                android:textColor="#002140"
+                android:textSize="15dp"></TextView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+            android:id="@+id/pricecheckout"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/philosopher"
+        android:textColor="#0D986A"
+        android:layout_height="wrap_content"
+        android:text="35000 VND"></TextView>
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
+

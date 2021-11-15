@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/drawable/backgroundsearch.xml" value="0.29615384615384616" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/drawable/buttonlogingradient.xml" value="0.17692307692307693" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/drawable/cartselector.xml" value="0.16794871794871793" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/drawable/item_selector.xml" value="0.1564102564102564" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/drawable/itemselector.xml" value="0.1564102564102564" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/drawable/plantselector.xml" value="0.16794871794871793" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/drawable/profileselector.xml" value="0.16794871794871793" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/drawable/roundgreen.xml" value="0.1564102564102564" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/drawable/selector_item.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/layout/fragment_cart.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/layout/fragment_plant_overview.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/layout/fragment_profile.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/layout/item_plant.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/layout/item_plant_checkout.xml" value="0.25" />
+        <entry key="..\:/Users/ADMIN/AndroidStudioProjects/PlantShop/app/src/main/res/menu/bottom_menu.xml" value="0.14316239316239315" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
