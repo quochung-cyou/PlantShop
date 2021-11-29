@@ -1,24 +1,50 @@
 # PlantShop
-A android plant shop app with firebase backend
 
------
+## Author
+
+* quochungvn
+
+## Description
+
+* A android plant shop app with firebase backend
+
+### Prerequisites
+
+* To run this software, you need an editor with java support, java - version 11 or higher,android-studio
+* Install java 11 using the commands:
+`sudo apt update`
+`sudo apt install openjdk-11-jre-headless`
+* Install android-studio
+`sudo snap install android-studio --classic`
+
+
+### Setup
+
+* Clone the project
+* Open in android-studio
+
+
+
+## Technologies Used
+
+* Java (version 11)
+* Android 
+* Gradle (7.1)
+* Firebase Realtime Storage, Firebase Auth
+
+
+
+## Demo image
 ![](mockup1.png)
 ![](mockup2.png)
 ![](backend.jpg)
 ![](demogif.gif)
 
 
-----
+## License Information
 
-What i learned:
-
-+ Create a responsive UI with ConstraintLayout
-+ Store product and save to user cart with Firebase Realtime Storage
-+ Create product in backend with Firebase Realtime Storage
-+ Firebase Auth for Login/Register/Forgot Password
-
-
-Total time used for project: 2 days
+* This software is licensed under MIT License.
+* [Read More](https://choosealicense.com/licenses/mit/) on the license.
 
 
 ```
