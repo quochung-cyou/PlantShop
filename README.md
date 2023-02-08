@@ -2,11 +2,11 @@
 
 ## Author
 
-* quochungvn
+* quochungcyou
 
 ## Description
 
-* A android plant shop app with firebase backend
+* A ecommerce plant shop app that enables users to buy plants easily and quickly. The app has been built with Firebase, making it a fast and secure platform for users to purchase plants. It also has a modern and minimal design, which makes it visually appealing and easy to use.  
 
 ### Prerequisites
 
